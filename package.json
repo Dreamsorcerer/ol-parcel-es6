@@ -1,0 +1,19 @@
+{
+  "main": "ol.js",
+  "scripts": {
+    "build": "parcel build index.js"
+  },
+  "targets": {
+    "main": {
+      "includeNodeModules": true,
+      "minify": false,
+      "outputFormat": "esmodule"
+    }
+  },
+  "dependencies": {
+    "ol": "latest"
+  },
+  "devDependencies": {
+    "parcel": "nightly"
+  }
+}
