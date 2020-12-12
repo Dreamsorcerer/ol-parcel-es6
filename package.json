@@ -1,4 +1,7 @@
 {
+  "description": "Open Layers ES6 module",
+  "license": "BSD-2-Clause",
+  "repository": "github:openlayers/ol-parcel-es6",
   "main": "ol.js",
   "scripts": {
     "build": "parcel build index.js"
